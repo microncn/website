@@ -3,7 +3,7 @@ import Link from "next/link";
 
 export default function Home() {
   return (
-    <div className="grid grid-cols-1 p-10 p-20 lg:p-36 xl:grid-cols-2">
+    <div className="grid grid-cols-1 p-20 lg:p-36 xl:grid-cols-2">
       <header className="mb-10 flex flex-col gap-2">
         <h1 className="text-4xl font-bold text-neutral-200">Wan Isa</h1>
         <h2 className="text-lg font-medium text-neutral-200">
