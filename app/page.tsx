@@ -5,8 +5,8 @@ export default function Home() {
   return (
     <div className="grid grid-cols-1 p-20 lg:p-36 xl:grid-cols-2">
       <header className="mb-10 flex flex-col gap-2">
-        <h1 className="text-4xl font-bold text-neutral-200">Wan Isa</h1>
-        <h2 className="text-lg font-medium text-neutral-200">
+        <h1 className="text-4xl font-bold text-white">Wan Isa</h1>
+        <h2 className="text-lg font-medium text-white">
           CEO, Lead Engineer at MidzDev
         </h2>
         <p className="w-80 text-neutral-400">
@@ -38,18 +38,18 @@ export default function Home() {
             personal project that improves developer productivity.
           </article>
         </div>
-        <div>
-          <span className="font-medium text-white">Experience</span>
+        <div className="flex flex-col">
+          <span className="mb-2 font-medium text-white">Experience</span>
           <div className="flex flex-col">
-            <div className="flex items-center gap-20 rounded-md p-4 hover:bg-neutral-900">
+            <div className="flex items-center gap-20 rounded-md p-4 duration-200 hover:bg-neutral-900">
               <span className="text-sm text-neutral-400">2022 - PRESENT</span>
-              <span className="font-medium text-neutral-200">
+              <span className="font-medium text-white">
                 CEO, Lead Engineer • MidzDev
               </span>
             </div>
-            <div className="flex items-center gap-20 rounded-md p-4 hover:bg-neutral-900">
+            <div className="flex items-center gap-20 rounded-md p-4 duration-200 hover:bg-neutral-900">
               <span className="text-sm text-neutral-400">2022 - PRESENT</span>
-              <span className="font-medium text-neutral-200">
+              <span className="font-medium text-white">
                 Contributor • Supabase
               </span>
             </div>
