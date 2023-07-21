@@ -41,13 +41,13 @@ export default function Home() {
         <div className="flex flex-col">
           <span className="mb-2 font-medium text-white">Experience</span>
           <div className="flex flex-col">
-            <div className="flex items-center gap-20 rounded-md p-4 duration-200 hover:bg-neutral-900">
+            <div className="hover:bg-secondary flex items-center gap-20 rounded-md p-4 duration-200">
               <span className="text-sm text-neutral-400">2022 - PRESENT</span>
               <span className="font-medium text-white">
                 CEO, Lead Engineer • MidzDev
               </span>
             </div>
-            <div className="flex items-center gap-20 rounded-md p-4 duration-200 hover:bg-neutral-900">
+            <div className="hover:bg-secondary flex items-center gap-20 rounded-md p-4 duration-200">
               <span className="text-sm text-neutral-400">2022 - PRESENT</span>
               <span className="font-medium text-white">
                 Contributor • Supabase
