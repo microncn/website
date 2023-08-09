@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+	@apply bg-background;
+}
+
+/* :root {
+	--background: hsl(0, 0%, 100%);
+	--secondary: hsl(0, 0%, 92%);
+} */
+
+:root {
+	--background: rgb(0, 0, 0);
+	--secondary: rgb(20, 20, 20);
+}
